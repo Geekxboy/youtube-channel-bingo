@@ -1,0 +1,43 @@
+.react-player {
+  margin: auto;
+}
+
+.grid-5 {
+  width: 18%;
+}
+
+.grid-6 {
+  width: 14%;
+}
+
+.grid-5, .grid-6 {
+  display: inline-block;
+  aspect-ratio : 1 / 1;
+  background: #000;
+  margin: 1%;
+  overflow: hidden;
+  padding: 4px;
+  cursor: pointer;
+  opacity: 1;
+  border: 1px solid #272727;
+
+  & > p {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 100%;
+    word-wrap: break-word;
+  }
+}
+
+.active-grid-item {
+  opacity: 0.5;
+  background: #ff0000;
+  border: 1px solid #c44b4b;
+}
+
+.react-confirm-alert-overlay {
+  background: rgba(0, 0, 0, 0.9);
+  text-align: center;
+}
