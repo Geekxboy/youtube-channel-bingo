@@ -1,6 +1,6 @@
 
 # Youtube Channel Bingo
-Play bingo with random clips from a Youtube Channel. This project was created after watching a streamer create a bingo game using photoshop where we watched random 1 minute clips from his past streams. The bingo card was filled with actions that commonly happened during his streams like "Collab Stream", "He plays GTA5 with a mod he made", a "TTS message was totally irrelevant", or "Chat says Rigged". After watching the stream, I made this project to help automate the process.
+Simple typescript react app to play bingo with random clips from a Youtube Channel. This project was created after watching a streamer create a bingo game using photoshop where we watched random 1 minute clips from his past streams. The bingo card was filled with actions that commonly happened during his streams like "Collab Stream", "He plays GTA5 with a mod he made", a "TTS message was totally irrelevant", or "Chat says Rigged". During the stream, I made this project to help automate the process.
 
 Setup:
  - Add your YouTube Data API v3 key to the .env file (Get this from https://console.cloud.google.com/)
@@ -24,4 +24,4 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
-You will also see any lint errors in the console.
+You will also see many lint errors in the console.
